@@ -6,7 +6,7 @@ int highPrev = 0;
 int midPrev = 0;
 void setup(){
  size(400, 400); 
- Ts = 1.0 / Fs; //calculate sampling period (1/Fs)
+ Ts = 1.0 / 
 }
 
 void draw(){
@@ -17,7 +17,7 @@ void draw(){
  counter = (counter + 1) % x.length; //increase the counter (loop the audio)
  strokeWeight(abs(x[counter])); //create time data visualizer
  point(200, 200); //draw point of different sizes based directly on music
- strokeWeight(1); //reset stroke weight
+ strokeWeight(1); 
  delay(2);
  //println(counter);
 }
